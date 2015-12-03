@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="100px"
+        android:minHeight="100px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:paddingTop="20dp">
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:text="Welcome James,"
+            android:layout_marginRight="141.5dp" />
+        <DigitalClock
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:id="@+id/digitalClock1"
+            android:layoutDirection="locale"
+            android:textAlignment="center"
+            android:theme="@android:style/Widget.Material.TimePicker"
+            android:textSize="25dp"
+            android:layout_marginRight="0.0dp" />
+    </LinearLayout>
+    <Button
+        android:text="@string/sayHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HelloButton"
+        android:drawableLeft="@android:drawable/presence_audio_online"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

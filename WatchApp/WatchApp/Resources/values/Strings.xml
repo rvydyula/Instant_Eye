@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">WatchApp</string>
+  <string name="DefaultText">text</string>
+  <string name="sayHello">Hello Officer!</string>
+  <string name="sayBye">Say Bye</string>
+  <string name="clickMe">Click me</string>
+  <string name="name">Name</string>
+  <string name="largeText">Large Text</string>
+  <string name="messageSpeakNow">Speak now..</string>
+</resources>
